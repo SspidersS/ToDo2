@@ -11,9 +11,6 @@ public class NoteService {
     private static Random random = new Random();
 
     public NoteService() {
-        noteStorage.put(1L, new Note(1L,"test", "test"));
-        noteStorage.put(2L, new Note(2L,"test2", "test2"));
-        noteStorage.put(3L, new Note(3L, "test3", "test3"));
     }
 
     public List<Note> listAll() {
